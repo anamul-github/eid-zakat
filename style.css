@@ -1,4 +1,43 @@
-h1 {
-    color: red;
-    background-color: blue;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#top-banner {
+    height: 600px;
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+    box-shadow: ;
+}
+
+.top-part {
+    font-size: 200%;
+    color: white;
+    margin-left: 150px;
+}
+
+
+.top-heading {
+    margin-top: 150px;
+
+}
+
+.top-para {
+    font-size: 50%;
+    padding-bottom: 30px;
+
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-size: 50%;
+    padding: 10px;
+    border: 2px solid #EF233C;
+    border-radius: 10px;
+    background-color: #EF233C;
+
 }
