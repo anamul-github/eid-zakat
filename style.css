@@ -27,6 +27,7 @@ body {
 .top-para {
     font-size: 50%;
     padding-bottom: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -34,7 +35,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 50%;
-    padding: 10px;
+    padding: 15px;
     border: 2px solid #EF233C;
     border-radius: 10px;
     background-color: #EF233C;
@@ -70,6 +71,7 @@ body {
 .second-para {
     font-size: 70%;
     padding-bottom: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -122,7 +124,9 @@ body {
 }
 
 
-
+#fourth-part {
+    margin-bottom: 9%;
+}
 
 .middle-part {
     text-align: center;
@@ -137,6 +141,10 @@ body {
 .mother-div {
     display: flex;
     padding: 0 15% 0 15%;
+}
+
+.seperate {
+    padding-bottom: 5%;
 }
 
 .child-div {
@@ -157,6 +165,11 @@ body {
     font-size: x-large;
 }
 
+.child-div p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .pray-pic {
     display: flex;
 }
@@ -165,4 +178,65 @@ body {
     width: 95%;
     margin: 10% 65% 0 63%;
 
+}
+
+#mother-div-zakat {
+    display: flex;
+    margin: 0 7% 0 7%;
+    padding-bottom: 10%;
+
+}
+
+.zakat-child {
+    border: 1px solid none;
+    border-radius: 10px;
+    margin: 0 2% 0 2%;
+    object-fit: cover;
+    box-shadow: 0 0 1px gray;
+    box-shadow: 0 0 1px gray;
+
+}
+
+.zakat-img {
+    width: 100%;
+}
+
+.zakat-content {
+    padding: 5px 20px 20px 20px;
+    margin: 0 15px 15px 15px;
+}
+
+.zakat-content h3 {
+    font-size: x-large;
+}
+
+.zakat-content p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+
+.zakat-content a {
+    color: #EF233C;
+    font-size: x-large;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 25px 0 25px 0;
+
+}
+
+footer h2 {
+    color: #EF233C;
+    font-family: 'Lemon', cursive;
+}
+
+footer p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-weight: 100;
 }
