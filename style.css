@@ -122,6 +122,47 @@ body {
 }
 
 
-#fourth-part {}
 
-.middle-part {}
+
+.middle-part {
+    text-align: center;
+    margin: 0 5% 0 5%;
+    font-size: 140%;
+    color: black;
+    height: 180px;
+}
+
+
+
+.mother-div {
+    display: flex;
+    padding: 0 15% 0 15%;
+}
+
+.child-div {
+    display: flex;
+    width: 50%;
+    background-color: mistyrose;
+    padding: 20px 40px 20px 30px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.help-img {
+    width: 40%;
+    margin-top: 25px;
+}
+
+.child-div h3 {
+    font-size: x-large;
+}
+
+.pray-pic {
+    display: flex;
+}
+
+.pray {
+    width: 95%;
+    margin: 10% 65% 0 63%;
+
+}
