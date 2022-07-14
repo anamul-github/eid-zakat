@@ -10,24 +10,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 1px;
-    box-shadow: ;
 }
 
 .top-part {
     font-size: 200%;
     color: white;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 
 
 .top-heading {
-    margin-top: 150px;
+    margin-top: 10%;
 
 }
 
 .top-para {
     font-size: 50%;
-    padding-bottom: 30px;
+    padding-bottom: 2%;
 
 }
 
@@ -41,3 +40,88 @@ body {
     background-color: #EF233C;
 
 }
+
+
+#second-part {
+    display: flex;
+    margin: 5% 5% 0 5%;
+    font-size: 140%;
+    color: black;
+
+}
+
+.left-side {
+    padding: 5% 5% 0 5%;
+    width: 40%;
+    margin-top: 2%;
+}
+
+.right-side {
+    padding: 5% 5% 0 5%;
+    width: 40%;
+
+}
+
+.cow-img {
+    width: 100%;
+    height: 85%;
+}
+
+.second-para {
+    font-size: 70%;
+    padding-bottom: 5%;
+
+}
+
+.second-button {
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    padding: 10px;
+    border: 2px solid #EF233C;
+    border-radius: 10px;
+    background-color: #EF233C;
+
+}
+
+
+
+#third-part {
+    display: flex;
+    margin: 0 5% 5% 5%;
+    font-size: 140%;
+    color: black;
+
+}
+
+.hujur-side {
+    padding: 0 5% 5% 5%;
+    width: 40%;
+}
+
+.hujur-right-side {
+    padding: 10% 5% 5% 5%;
+    width: 40%;
+
+}
+
+.hujur-img {
+    width: 100%;
+    height: 85%;
+}
+
+.third-button {
+    text-decoration: none;
+    color: white;
+    font-size: 80%;
+    padding: 10px;
+    border: 2px solid #EF233C;
+    border-radius: 10px;
+    background-color: #EF233C;
+
+}
+
+
+#fourth-part {}
+
+.middle-part {}
